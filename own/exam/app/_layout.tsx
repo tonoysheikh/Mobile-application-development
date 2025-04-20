@@ -34,7 +34,8 @@ export default function RootLayout() {
         <Stack.Screen name="(calculator)" options={{ title : 'Calculator' }} />
         <Stack.Screen name="(todo)" options={{ title : 'To DO' }} />
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        {/* <Stack.Screen name="(tabs)" options={{ headerShown: false }} /> */}
+        <Stack.Screen name="(listview)" options={{ title : 'List View From API' }} />
+        <Stack.Screen name="(calender)" options={{ title : 'Calender' }} />
         {/* <Stack.Screen name="index" options={{ title : 'Home' }} />
         {/* <Stack.Screen name="index" options={{ title : 'Home' }} />
         {/* <Stack.Screen name="index" options={{ title : 'Home' }} />

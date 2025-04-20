@@ -101,6 +101,54 @@ export default function TabTwoScreen() {
           </Pressable>
       </Link>
 
+
+      <Text style = {styles.text}>List View From API</Text>
+
+      <Collapsible title="Add your Daily Rountine here">
+        <ThemedText>
+          This app has two screens:{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+        </ThemedText>
+        <ThemedText>
+          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
+          sets up the tab navigator.
+        </ThemedText>
+        <ExternalLink href="https://docs.expo.dev/router/introduction">
+          <ThemedText type="link">Learn more</ThemedText>
+        </ExternalLink>
+      </Collapsible>
+
+      <Link href = "/(listview)/app" style = {{ marginHorizontal : 'auto'}} asChild>
+        <Pressable style = {styles.button}>
+            <Text style = {styles.buttontext}>RUN PROJECT</Text>  
+          </Pressable>
+      </Link>
+
+
+      <Text style = {styles.text}>Calender</Text>
+
+      <Collapsible title="Add your Daily Rountine here">
+        <ThemedText>
+          This app has two screens:{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+        </ThemedText>
+        <ThemedText>
+          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
+          sets up the tab navigator.
+        </ThemedText>
+        <ExternalLink href="https://docs.expo.dev/router/introduction">
+          <ThemedText type="link">Learn more</ThemedText>
+        </ExternalLink>
+      </Collapsible>
+
+      <Link href = "/(calender)/app" style = {{ marginHorizontal : 'auto'}} asChild>
+        <Pressable style = {styles.button}>
+            <Text style = {styles.buttontext}>RUN PROJECT</Text>  
+          </Pressable>
+      </Link>
+
       <Text style = {styles.footer}>Project Owner : Salman Johir Tonoy</Text>
 
     </ParallaxScrollView>
