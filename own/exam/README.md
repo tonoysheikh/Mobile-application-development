@@ -1,7 +1,11 @@
 # Welcome to my Multi Functional app 👋
+
 Owner : Salman Johir Tonoy
+
 Email : salmanjahirtonoy17@gmail.com
+
 Student ID : CSE2102023012
+
 Date : 2025-04-20
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
