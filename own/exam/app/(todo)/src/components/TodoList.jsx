@@ -23,8 +23,12 @@ export default function TodoList(props) {
         onPress={() => props.deleteTodo(props.todo.key)}
       />
     </View>
+
+    
   );
 }
+
+
 
 const styles = StyleSheet.create({
   listTile: {

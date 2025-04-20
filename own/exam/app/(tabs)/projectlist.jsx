@@ -101,6 +101,7 @@ export default function TabTwoScreen() {
           </Pressable>
       </Link>
 
+      <Text style = {styles.footer}>Project Owner : Salman Johir Tonoy</Text>
 
     </ParallaxScrollView>
   );
@@ -140,5 +141,12 @@ const styles = StyleSheet.create({
       fontSize : 20,
       color : 'white',
       textAlign : 'center',
+    },
+    footer:{
+      textAlign : 'center',
+      fontStyle : 'italic',
+      fontSize : 10,
+      marginTop : 50,
+      color : 'white',
     }
 });

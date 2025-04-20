@@ -20,6 +20,8 @@ export default function App() {
   // Initalize empty array to store todos
   const [todos, setTodos] = useState([]);
 
+
+
   // function to add todo object in todo list
   const addTodo = () => {
     if (title.length > 0) {
@@ -43,6 +45,7 @@ export default function App() {
       })
     );
   };
+  
 
   // function to delete todo from the todo list
   const deleteTodo = id => {
